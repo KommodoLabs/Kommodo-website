@@ -1,2 +1,2 @@
-#Kommodo website
+# Kommodo website
 Minimal welcome website for kommodo the novel permissionless lending protcol

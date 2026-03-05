@@ -11,18 +11,16 @@ export default function Home() {
       </Head>
       <main>
         <h1 className={styles.title}>
-          <a href="https://github.com/KommodoLabs/Kommodo-whitepaper/blob/main/Kommodo.pdf">Kommodo</a>, a novel lending protocol<br/>
+          <a href="https://ipfs.io/ipfs/bafybeiaf2rgqccfsyfl6qc6qpmgxlkg75r365qnpmsgfe53r2a3w4znncy">Kommodo</a>, a novel lending protocol.<br/>
           <Typewriter
             options={{
-              strings: ['no liquidations', 'no oracles', 'minimal complexity'],
+              strings: ['Permissionless', 'Any token', 'No oracles', 'No forced liquidations'],
               autoStart: true,
               loop: true,
             }}
           />
           <br/>
-          <a href="https://twitter.com/KommodoLabs" >
-            Updates &rarr;
-          </a>
+
         </h1>
       </main>
       <style jsx>{`

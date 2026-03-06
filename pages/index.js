@@ -10,8 +10,16 @@ export default function Home() {
         <link rel="icon" href="/kommodo.ico" />
       </Head>
       <main>
+        <img 
+            src="/kommodo-logo-black-transparent.png"
+            width={186} 
+            height={186} 
+            style={{ borderRadius: 60 }}
+        />
         <h1 className={styles.title}>
-          <a href="https://ipfs.io/ipfs/bafybeiaf2rgqccfsyfl6qc6qpmgxlkg75r365qnpmsgfe53r2a3w4znncy">Kommodo</a>, a novel lending protocol.<br/>
+          <a href="https://ipfs.io/ipfs/bafybeiaf2rgqccfsyfl6qc6qpmgxlkg75r365qnpmsgfe53r2a3w4znncy">
+            Kommodo 
+          </a>, a novel lending protocol.<br/>
           <Typewriter
             options={{
               strings: ['Permissionless', 'Any token', 'No oracles', 'No forced liquidations'],
@@ -20,18 +28,33 @@ export default function Home() {
             }}
           />
           <br/>
-
         </h1>
       </main>
       <style jsx>{`
         main {
-          padding: 5rem 0;
+          padding: 5rem 1rem;
           flex: 1;
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
           textAlign: left;
+        }
+        h1 {
+          font-size: 2.5rem; 
+          line-height: 1.2;
+          text-align: center;
+        }
+        @media (max-width: 768px) {
+          h1 {
+            font-size: 1.8rem;
+          }
+        }
+        @media (max-width: 480px) {
+          h1 {
+            font-size: 1.4rem;
+            line-height: 1.3;
+          }
         }
         footer {
           width: 100%;

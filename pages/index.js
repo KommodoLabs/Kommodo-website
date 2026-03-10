@@ -17,7 +17,7 @@ export default function Home() {
             style={{ borderRadius: 60 }}
         />
         <h1 className={styles.title}>
-          <a href="https://ipfs.io/ipfs/bafybeigq7owcvudzlcty35akulebdmhufng7ryrcyrushmsghjvrgc66fi">
+          <a href="https://ipfs.io/ipfs/bafybeidkt4rjr2jgfvbzqkgjpxpycwaerpkwkzjxtsvjyw4xopmq5mgeua">
             Kommodo 
           </a>, a novel lending protocol.<br/>
           <Typewriter
@@ -30,7 +30,7 @@ export default function Home() {
           <br/>
         </h1>
       </main>
-      <style jsx>{`
+      <style jsx>{`git 
         main {
           padding: 5rem 1rem;
           flex: 1;

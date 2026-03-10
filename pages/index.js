@@ -30,7 +30,7 @@ export default function Home() {
           <br/>
         </h1>
       </main>
-      <style jsx>{`git 
+      <style jsx>{`
         main {
           padding: 5rem 1rem;
           flex: 1;

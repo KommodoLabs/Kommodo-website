@@ -17,7 +17,7 @@ export default function Home() {
             style={{ borderRadius: 60 }}
         />
         <h1 className={styles.title}>
-          <a href="https://ipfs.io/ipfs/bafybeic6qezkeynzbsseoqh42lc67cxqc2fmtdjkfxmr2y6ls7ijuh7thi">
+          <a href="https://ipfs.io/ipfs/bafybeieofful6homzl5sgew4ntfawsaqlab4hk245qdu7caxrcnf6z7vea">
             Kommodo 
           </a>, a novel lending protocol.<br/>
           <Typewriter

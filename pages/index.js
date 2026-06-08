@@ -17,12 +17,12 @@ export default function Home() {
             style={{ borderRadius: 60 }}
         />
         <h1 className={styles.title}>
-          <a href="https://ipfs.io/ipfs/bafybeieofful6homzl5sgew4ntfawsaqlab4hk245qdu7caxrcnf6z7vea">
+          <a href="https://ipfs.io/ipfs/bafybeibfvlpw6rox6ikkwgthckf2jwn2e6k5rsitnclxificnche37kuky">
             Kommodo 
           </a>, a novel lending protocol.<br/>
           <Typewriter
             options={{
-              strings: ['Permissionless', 'Any token', 'No oracles', 'No forced liquidations'],
+              strings: ['Permissionless', 'Any token', 'No oracles', 'No bad debt'],
               autoStart: true,
               loop: true,
             }}
